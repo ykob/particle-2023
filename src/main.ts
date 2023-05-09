@@ -1,6 +1,6 @@
 import "./style.css";
 import * as THREE from "three";
-import { debounce, throttle } from "./utils";
+import { debounce } from "./utils";
 
 const scene = new THREE.Scene();
 const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1);
